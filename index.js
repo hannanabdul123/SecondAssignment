@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
 
-const itemsArr = ['apple', 'banana'];
+const itemsArr = ['bat', 'ball'];
 app.use(bodyParser.json());
 
 mongoose.connect('mongodb+srv://abdul:abdul@cluster0.z0quves.mongodb.net/?retryWrites=true&w=majority', {
